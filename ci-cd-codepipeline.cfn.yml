@@ -25,7 +25,7 @@ Parameters:
   GitBranch:
     Type: String
     Default: master
-    Description: GitHub git repository branch - change triggers a new build
+    Description: GitHub git repository branch - change trigit ggers a new build
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository branch name
@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: kaosi-anikwe
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
